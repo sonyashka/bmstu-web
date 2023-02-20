@@ -1,0 +1,44 @@
+// app global css in SCSS form
+
+.flex-space {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.btn {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+
+  //styleName: Sys style;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 20px;
+
+  display: block;
+  width: 100%;
+
+
+  &--flat {
+    background: transparent;
+    display: inline;
+  }
+
+  &--accent {
+    background: #FDB965;
+  }
+}
